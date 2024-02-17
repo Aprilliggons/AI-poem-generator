@@ -1,7 +1,73 @@
 body {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(242, 235, 243) 0%,
-    rgb(234, 241, 249) 90.1%
-  );
+  background-color: #41506b;
+}
+
+h1 {
+  font-size: 46px;
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #41506b;
+}
+
+form {
+  padding: 30px;
+  background-color: #bbded6;
+  border-radius: 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: #35bcbf;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.poem-search-input {
+  width: 75%;
+  padding: 15px;
+  margin: 0 0 10px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+  background-color: white;
+  font-family: "Arvo", serif;
+}
+
+.poem {
+  padding: 30px;
+  background-color: #bbded6;
+  margin: 10px 0 0 0;
+  border-radius: 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-family: "Arvo", serif;
+  text-align: center;
+  border-left: 3px solid #41506b;
+  line-height: 2;
+}
+.submit-button {
+  font-size: 16px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #41506b;
+  cursor: pointer;
+  margin: 0 0 0 8px;
+  font-family: "Arvo", serif;
+  color: #35bcbf;
+}
+
+.submit-button:hover {
+  background-color: ;
+}
+footer {
+  font-size: 13px;
+  text-align: center;
+  margin: 15px 0 0 0;
+  color: #41506b;
+  font-family: "Arvo", serif;
 }
