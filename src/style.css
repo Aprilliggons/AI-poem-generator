@@ -47,7 +47,7 @@ h1 {
 }
 
 .poem {
-  padding: 20px;
+  padding: 20px 0 0 0;
   background-color: #bbded6;
   margin: 10px 0 0 0;
   border-radius: 6px;
