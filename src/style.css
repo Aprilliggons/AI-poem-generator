@@ -11,11 +11,12 @@ h1 {
   color: #41506b;
 }
 
-form {
-  padding: 30px;
+.form-container {
+  padding: 20px;
   background-color: #bbded6;
   border-radius: 6px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-family: "Arvo", serif;
 }
 
 .container {
@@ -40,8 +41,13 @@ form {
   font-weight: bold;
 }
 
+.hint {
+  color: gray;
+  opacity: 0.8;
+}
+
 .poem {
-  padding: 30px;
+  padding: 20px;
   background-color: #bbded6;
   margin: 10px 0 0 0;
   border-radius: 6px;
@@ -51,6 +57,10 @@ form {
   border-left: 3px solid #41506b;
   line-height: 2;
   color: #41506b;
+}
+
+.hidden {
+  display: none;
 }
 .submit-button {
   font-size: 16px;
