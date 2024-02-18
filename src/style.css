@@ -72,3 +72,10 @@ footer {
   color: #41506b;
   font-family: "Arvo", serif;
 }
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
